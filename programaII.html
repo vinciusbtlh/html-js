@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <script>
+    
+    function pulalinha(){
+            document.write('<br><br>')
+        }
+
+        function mostra(texto){
+            document.write(texto)
+            pulalinha()
+        }
+
+        function calcularIMC(peso, altura){
+            return imc = peso/(altura*altura)
+        }
+
+        let imcBotelho = calcularIMC (67, 176)
+
+        mostra('o IMC do Botelho é' + imcBotelho)
+            </script>
+</body>
+</html>
