@@ -16,13 +16,19 @@
             document.write(texto)
             pulalinha()
         }
-        let anoInicial = 1896
+        let materia = prompt('qual a materia você quer saber a média?')
 
-        while(anoInicial <= 2024){
-            mostra(`${anoInicial} teve olimpiadas`)
-            anoInicial = + 4
+        let trimestre = parseInt(' digite a quantidade de trimestre que você fez: ')
+
+        let totalNotas = 0 
+        
+        for(let contador = 1; contador <= trimestre; contador++){
+            let nota = parseInt(prompt ('qual a sua nota ?'))
+            totalNotas = totalNotas + nota
         }
-    
+
+        let media = totalNotas/trimestre
+        mostra(media)
 
         </script>
 </body>

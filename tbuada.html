@@ -8,7 +8,7 @@
 </head>
 <body>
     <script>
-        function pulalinha(){
+function pulalinha(){
             document.write('<br><br>')
         }
 
@@ -16,14 +16,12 @@
             document.write(texto)
             pulalinha()
         }
-        let anoInicial = 1896
+        let tabuada = prompt(' Qual a tabuada que você deseja?')
 
-        while(anoInicial <= 2024){
-            mostra(`${anoInicial} teve olimpiadas`)
-            anoInicial = + 4
+        for(let i = 0; i <= 10; i++){
+            mostra(`${tabuada} x ${i} = ${i * tabuada}`)
         }
+    </script>
     
-
-        </script>
 </body>
 </html>
