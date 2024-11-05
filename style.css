@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor1: #f72585ff;
+    --cor2: #7209b7ff;
+    --cor3: #3a0ca3ff;
+    --cor4: #4361eeff;
+    --cor5: #4cc9f0ff;
+    --fonte-titulo:"Anton SC", sans-serif;
+    --fonte-texto:"Anton SC", sans-serif;
+}
+
+body{
+    background-color: var(--cor2);
+    font-family: var(--fonte-texto);
+}
+
+header{
+    background-color: var(--cor3);
+    padding: 2em;
+    color: var(--cor4);
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 1.5em;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor5);
+}
